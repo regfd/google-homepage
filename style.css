@@ -1,6 +1,7 @@
 #logo {
 
     padding-top: 109px;
+    padding-bottom: 47px;
 
 }
 body, td, a, p, .h {
@@ -18,6 +19,17 @@ body, td, a, p, .h {
 
 }
 
+#footer-links a {
+
+    display: inline-block;
+    padding-left: 27px;
+    color: #000;
+    opacity: 0.75;
+    font-size: 13px;
+
+}
+
+
 
 .btn {
 
@@ -28,11 +40,13 @@ body, td, a, p, .h {
     background: #4285f4;
     background: -webkit-linear-gradient(top,#4387fd,#4683ea);
     background: linear-gradient(top,#4387fd,#4683ea);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4387fd,endColorstr=#4683ea,GradientType=0);
     display: inline-block;
     line-height: 28px;
     padding: 0 12px;
     -webkit-border-radius: 2px;
     border-radius: 2px;
+    margin-left: 15px;;
 }
 
 ul {
@@ -67,14 +81,14 @@ body {
   .header {
     background: #ffffff;
     text-align: left;
-    padding-top: 14px;
+    padding-top: 10px;
   }
   
   .footer {
       text-align: left;
     position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 99.5%;
   background: #f2f2f2;
     line-height: 40px;
     min-width: 980px;

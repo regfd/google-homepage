@@ -1,6 +1,6 @@
 #logo {
 
-    padding-top: 109px;
+    padding-top: 149px;
     padding-bottom: 47px;
 
 }
@@ -100,13 +100,20 @@ body {
     
   }
   
-  .aside-1 {
-    background: ffffff;
-  }
-  
-  .aside-2 {
-    background: ffffff;
-  }
+ input[type=text] {
+
+
+  background-color: white;
+  background-image: url(/home/regfd/odin_on_rails/google-homepage/gg.png);
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px
+ }
+
+ #search {
+  width: 584px;
+
+ }
   
   @media all and (min-width: 600px) {
     .aside { flex: 1 0 0; }

@@ -103,17 +103,71 @@ body {
  input[type=text] {
 
 
-  background-color: white;
-  background-image: url(/home/regfd/odin_on_rails/google-homepage/gg.png);
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
-  padding-left: 40px
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  color: rgba(0,0,0,.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  -webkit-tap-highlight-color: transparent;
+  margin-top: -37px;
  }
+
+ input[type="text"]:hover {
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
+
 
  #search {
   width: 584px;
 
  }
+
+ #searchbuttons {
+margin-top: 25px;
+  display: inline-block;
+ 
+
+
+
+ }
+
+
+ .searchbutton {
+
+  background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5F6368;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 10px 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+
+ }
+
+.searchbutton:hover {
+ box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+
+}
   
   @media all and (min-width: 600px) {
     .aside { flex: 1 0 0; }
